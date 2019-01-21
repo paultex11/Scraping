@@ -8,7 +8,7 @@ export default StyleSheet.create({
     backgroundColor: '#F44336'
   },
   'hoverRed:hover': {
-    color: 'red'
+    color: 'blue'
   },
   'hover:hover': {
     backgroundColor: 'rgba(0,0,0,0.5)'
