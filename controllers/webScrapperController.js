@@ -29,7 +29,7 @@ module.exports = (app) => { // Export Module Containing Routes. Called from Serv
   // Scrape Articles Route
   app.get("/api/search", (req, res) => {
 
-    axios.get("https://www.foxnews.com/").then(response => {
+    axios.get("https://www.npr.org/sections/news/").then(response => {
       // console.log("Load Response");
       // Then, we load that into cheerio and save it to $ for a shorthand selector
       let $ = cheerio.load(response.data);
