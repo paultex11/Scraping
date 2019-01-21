@@ -6,11 +6,11 @@ let db = require("../models"); // Require all models
 
 /////////////////////////////////////////////// /* Mongoose Configuration */ ////////////////////////////////////////////////////////
 mongoose.Promise = Promise; // Set mongoose to leverage Built in JavaScript ES6 Promises
-mongoose.connect("mongodb://heroku_n498q09l:nqhsgor6hvbhfudh35mk0npfo0@ds147267.mlab.com:47267/heroku_n498q09l", { // Connect to the Mongo DB
+mongoose.connect("mongodb://heroku_sssxcmm3:p58j0volvmregcbttjfe6993sk@ds163014.mlab.com:63014/heroku_sssxcmm3", { // Connect to the Mongo DB
   useMongoClient: true
 });
 
-// mongodb://heroku_n498q09l:nqhsgor6hvbhfudh35mk0npfo0@ds147267.mlab.com:47267/heroku_n498q09l
+//  mongodb://heroku_sssxcmm3:p58j0volvmregcbttjfe6993sk@ds163014.mlab.com:63014/heroku_sssxcmm3
 
 let mongooseConnection = mongoose.connection;
 
